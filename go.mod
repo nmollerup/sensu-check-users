@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/sensu/sensu-go/api/core/v2 v2.14.0
-	github.com/sensu/sensu-plugin-sdk v0.16.0
+	github.com/sensu/sensu-plugin-sdk v0.19.0
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/stretchr/testify v1.11.1
 )
@@ -29,10 +29,11 @@ require (
 	github.com/pelletier/go-toml v1.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
-	github.com/robertkrimen/otto v0.0.0-20191219234010-c382bd3c16ff // indirect
+	github.com/robertkrimen/otto v0.0.0-20221006114523-201ab5b34f52 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
-	github.com/sensu/sensu-go/types v0.10.0 // indirect
-	github.com/sensu/sensu-licensing v0.1.2 // indirect
+	github.com/sensu/core/v2 v2.16.1 // indirect
+	github.com/sensu/sensu-api-tools v0.1.0 // indirect
+	github.com/sensu/sensu-licensing/v2 v2.2.1 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/sirupsen/logrus v1.9.1 // indirect
 	github.com/spf13/afero v1.1.2 // indirect
@@ -45,11 +46,11 @@ require (
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.5 // indirect
 	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
-	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c // indirect
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	google.golang.org/grpc v1.79.3 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/ini.v1 v1.51.0 // indirect
