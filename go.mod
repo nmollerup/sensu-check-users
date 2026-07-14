@@ -3,7 +3,7 @@ module github.com/nmollerup/sensu-check-users
 go 1.25.0
 
 require (
-	github.com/sensu/sensu-go/api/core/v2 v2.14.0
+	github.com/sensu/sensu-go/api/core/v2 v2.16.0
 	github.com/sensu/sensu-plugin-sdk v0.16.0
 	github.com/shirou/gopsutil/v3 v3.24.5
 	github.com/stretchr/testify v1.11.1
@@ -45,7 +45,7 @@ require (
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
-	go.etcd.io/etcd/api/v3 v3.5.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.5.4 // indirect
 	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sys v0.45.0 // indirect
 	golang.org/x/text v0.37.0 // indirect
